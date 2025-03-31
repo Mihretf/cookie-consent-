@@ -1,0 +1,49 @@
+/* Pastel Donut Theme */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7, #ffcbcb);
+    text-align: center;
+    color: #5c3d2e;
+}
+
+/* Cookie Consent Popup - Cute Donut Shop Style */
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #fff3e0;
+    color: #8e5a4a;
+    padding: 20px;
+    border-radius: 15px;
+    width: 270px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid #ffb6c1;
+}
+
+/* Donut Icon */
+.donut-icon {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Fun Cookie Button */
+.accept-btn {
+    background-color: #ffb6c1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.accept-btn:hover {
+    background-color: #ff69b4;
+}
+
+/* Hide popup when user accepts */
+.hidden {
+    display: none;
+}
